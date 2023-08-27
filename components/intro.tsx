@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/public/133886905.png"
+              src="https://images.credly.com/images/2abf0ede-58a3-4031-a05c-b4de0088a18f/blob.jpeg"
               alt="Ashwin Gopalsamy"
               width="100"
               height="100"
