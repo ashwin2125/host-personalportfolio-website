@@ -1,10 +1,13 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import {MdWorkHistory} from  "react-icons/md";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import swiggyIppQwik from "@/public/swiggy-ipp-qwik-project.png"
+import macOSDarkTheme from "@/public/vscode-theme-darktheme.png"
+import fypItmsProject from "@/public/fyp-itms-ml-project.png"
+import figmaTweetyGen from "@/public/figma-tweety-cover.png";
+import whatsappCaseStudyDesignThinking from "@/public/whatsapp-designthinking-casestudy.png"
+
 
 export const links = [
   {
@@ -16,16 +19,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
     name: "Skills",
     hash: "#skills",
   },
   {
     name: "Experience",
     hash: "#experience",
+  },
+  {
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Contact",
@@ -35,73 +38,118 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Engineering, Core-Banking",
+    location: "Solaris SE",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "- Architecting, designing and implementing robust and scalable cloud-native products on a event-sourced, microservices systems in the Core-Banking Unit, ensuring resilience and distributed functionality.",
+    description1:
+      "- Building and owning milestone products like Credit Cards & Savings Account that cater financial services to Europe and across the globe",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Associate Software Engineer",
+    location: "Hexaware Technologies",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "- Worked on the development of enterprise-level distributed applications on the cloud, specifically for an internal ground-up Cloud HRMS Project and catering to an $115 million Automotive Manufacturing organization.",
+    description1:
+      "- This is where it all started for me, to go beyond my limits to become the person who I'm now and I'm proud of it.",
+    icon: React.createElement(MdWorkHistory),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Bootcamp Trainee",
+    location: "Swiggy",
+    description:
+      "- One of 30 Member Trainees chosen by Swiggy for an exclusive bootcamp on cutting-edge technologies like Go, AWS, Microservices, gRPC, Kafka and Databases.",
+    description1:
+      "- Nevertheless to say, this training bootcamp played the pivotal role in transforming me into the world of building modern internet-scale software systems.",
+    icon: React.createElement(MdWorkHistory),
+    date: "2022, 4 Months.",
+  },
+  {
+    title: "Intern",
+    location: "Microsoft",
+    description:
+      "- Engaged in the development of an open-source project over a 4-month span, utilizing Microsoft Azure Cloud, Power BI, and GitHub, as a key participant in Microsoft's FutureReadyTalent Internship Program.",
+    description1:
+      "- Built an open-source project Bud.ai - 'The Student Twin' on JavaScript, Microsoft Azure Cloud - AI Tools and hosted it in GitHub and Azure",
+    icon: React.createElement(MdWorkHistory),
+    date: "2021, 4 Months.",
+  },
+  {
+    title: "Graduated in B.Tech Information Technology",
+    location: "Hindusthan College of Engineering and Technology",
+    description:
+      "- Ranked as #1 Coder in Skillrack Coding Competition continuously for 10 weeks. (Language: C++, Java, Python).",
+    description1:
+      "- Revitalized Google Developer Student Club & HiCET Developer Club and handled multiple roles with enthusiasm and co-ordination within teams.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017 - 2021",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Swiggy Qwik",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "E-Commerce platform built with cutting-edge tech as a team of 5 devs from Swiggy's i++ Training Bootcamp.",
+    tags: ["Go", "AWS", "DynamoDB", "gRPC", "Microservices",  "Docker", "Jenkins"],
+    imageUrl: swiggyIppQwik,
   },
   {
-    title: "rmtDev",
+    title: "Design Thinking - WhatsApp",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Reimagining WhatsApp to improve user-experience with helpful new features.",
+    tags: ["Case Study", "User Experience", "Figma", "UI"],
+    imageUrl: whatsappCaseStudyDesignThinking,
   },
   {
-    title: "Word Analytics",
+    title: "Intelligent Traffic Management System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A research project on analyzing the traffic scenario and perform signal switching intelligently.",
+    tags: ["Python", "Machine Learning", "Graduation Project", "Google Colab"],
+    imageUrl: fypItmsProject,
+  },
+  {
+    title: "VSCode - MacOS Dark Color Scheme",
+    description:
+      "An absolute dark theme for developers who love pitch-black. Currently used by more than 1500 Developers.",
+    tags: ["JavaScript", "VSCode", "Productivity", "Color Scheme"],
+    imageUrl: macOSDarkTheme,
+  },
+  {
+    title: "Tweety - Create beautiful & gradient Tweets",
+    description:
+      "Create custom editable tweet-like images as you like. Forked 2000 times.",
+    tags: ["Figma", "UI/UX", "Mockup", "Experimentation"],
+    imageUrl: figmaTweetyGen,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
+  "Go",
+  "AWS",
+  "Microservices",
+  "Event-Driven Architecture",
+  "Event Sourcing & CQRS",
+  "Docker",
+  "Kubernetes",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Terraform",
+  "Grafana",
+  "Prometheus",
+  "DynamoDB",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Athena",
+  "Snowflake",
+  "Aurora",
+  "DMS",
+  "Jira",
+  "Confluence",
+  "Linux",
+  "Concourse",
+  "REST APIs",
+  "gRPC APIs",
+  "Webhooks"
 ] as const;

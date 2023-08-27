@@ -3,7 +3,7 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
-import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "../lib/hooks";
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -18,31 +18,12 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I&apos;m also
-        learning how to play the guitar.
+      <p className="mb-3 text-justify text-lg">
+      I work in technology, but there&apos;s much more to me outside the lines of code and tech architectures. I&apos;ve shaped my life as a blend of intellectual curiosity, family values, and well-being. Engaging in discussions that range from geopolitics to finance, I relish the opportunity for collective growth and fresh perspectives. Valuing both the soil under my feet and the faces at my family table, they serve as my emotional and cultural anchor. <br/> <br/>
+      
+      I keep wellness as a daily commitment, manifesting in no-equipment workouts, mindfullness, active walking and staying in hydration. Amid this backdrop of personal growth, family ties, and a deep connection to my roots, my Tamil heritage and love for music find their rightful space. Whether it&apos;s lofi-beats for focus & work or Tamil tracks for soulful connection, music is an ever-present companion.<br/><br/>
+      
+      Being <span className="text-italic">bilingually proficient in English & Deutsch</span>, I appreciate the art of clear communication across diverse settings. In a nutshell, I&apos;m a multi-layered individual balancing modern tech, traditional values, and a ceaseless thirst for knowledge, always aiming to be a better version of myself.
       </p>
     </motion.section>
   );

@@ -3,9 +3,7 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
-import { useSectionInView } from "@/lib/hooks";
-import SubmitBtn from "./submit-btn";
-import toast from "react-hot-toast";
+import { useSectionInView } from "../lib/hooks";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -28,17 +26,20 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
-
+      <SectionHeading>Contact</SectionHeading>
+      <br/>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+        Feel free to contact me directly at{" "}
+        <a className="underline" href="mailto:ashwin2125@gmail.com">
+          ashwin2125@gmail.com
         </a>{" "}
-        or through this form.
-      </p>
-
-    
+        or via {" "}
+      <a
+          className="underline"
+          href="https://linkedin.com/in/ashwin2125"
+          target="_blank">LinkedIn
+        </a>
+        </p>
     </motion.section>
   );
 }
