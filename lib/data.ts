@@ -38,12 +38,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Engineering, Core-Banking",
+    title: "Engineering, Core.",
     location: "Solaris SE",
     description:
-      "- Architecting, designing and implementing robust and scalable cloud-native products on a event-sourced, microservices systems in the Core-Banking Unit, ensuring resilience and distributed functionality.",
+      "- Architecting, designing & implementing robust and scalable cloud-native products on an event-sourced, microservices architecture in our Core-Banking system's Accounts Product Unit.",
     description1:
-      "- Building and owning milestone products like Credit Cards & Savings Account that cater financial services to Europe and across the globe",
+      "- Building and owning milestone products like 'Savings Account' & 'Credit Card Interest Component' that cater financial services to Europe and across the globe",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - Present",
   },
@@ -53,7 +53,7 @@ export const experiencesData = [
     description:
       "- Worked on the development of enterprise-level distributed applications on the cloud, specifically for an internal ground-up Cloud HRMS Project and catering to an $115 million Automotive Manufacturing organization.",
     description1:
-      "- This is where it all started for me, to go beyond my limits to become the person who I'm now and I'm proud of it.",
+      "- This is where it all started, to go beyond my limits to become the person who I'm now and I'm proud of it.",
     icon: React.createElement(MdWorkHistory),
     date: "2021 - 2022",
   },
@@ -71,7 +71,7 @@ export const experiencesData = [
     title: "Intern",
     location: "Microsoft",
     description:
-      "- Engaged in the development of an open-source project over a 4-month span, utilizing Microsoft Azure Cloud, Power BI, and GitHub, as a key participant in Microsoft's FutureReadyTalent Internship Program.",
+      "- Learnt & engaged in the development of an open-source project over a 4-month span, utilizing Microsoft Azure Cloud and GitHub, as a key participant in Microsoft's 'FutureReadyTalent' Internship Program.",
     description1:
       "- Built an open-source project Bud.ai - 'The Student Twin' on JavaScript, Microsoft Azure Cloud - AI Tools and hosted it in GitHub and Azure",
     icon: React.createElement(MdWorkHistory),
@@ -121,35 +121,32 @@ export const projectsData = [
   {
     title: "Tweety - Create beautiful & gradient Tweets",
     description:
-      "Create custom editable tweet-like images as you like. Forked 2000 times.",
+      "Create custom editable tweet-like images as you like. Forked 2000+ times.",
     tags: ["Figma", "UI/UX", "Mockup", "Experimentation"],
     imageUrl: figmaTweetyGen,
   },
 ] as const;
 
 export const skillsData = [
-  "Go",
-  "AWS",
-  "Microservices",
-  "Event-Driven Architecture",
-  "Event Sourcing & CQRS",
-  "Docker",
-  "Kubernetes",
-  "Git",
-  "Terraform",
-  "Grafana",
-  "Prometheus",
-  "DynamoDB",
-  "PostgreSQL",
-  "Athena",
-  "Snowflake",
-  "Aurora",
-  "DMS",
-  "Jira",
-  "Confluence",
-  "Linux",
-  "Concourse",
-  "REST APIs",
-  "gRPC APIs",
-  "Webhooks"
+    "Go (Programming Language)",
+    "Amazon Web Services (AWS)",
+    "Microservices",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "Grafana",
+    "Prometheus",
+    "PostgreSQL",
+    "DynamoDB",
+    "Snowflake",
+    "Athena",
+    "Linux",
+    "Data Structures",
+    "Algorithm",
+    "Domain-Driven Design (DDD)",
+    "Event-Driven Architecture",
+    "Cloud Native Architecture"
+    "Event Sourcing & CQRS",
+    "API Development",
+    "Product Development"
 ] as const;

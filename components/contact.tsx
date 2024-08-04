@@ -36,7 +36,7 @@ export default function Contact() {
         or via {" "}
       <a
           className="underline"
-          href="https://linkedin.com/in/ashwin2125"
+          href="https://linkedin.com/in/ashwingopalsamy"
           target="_blank">LinkedIn
         </a>
         </p>
