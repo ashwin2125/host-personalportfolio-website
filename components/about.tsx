@@ -19,11 +19,11 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-justify text-lg">
-      I work in technology, but there&apos;s much more to me outside the lines of code and tech architectures. I&apos;ve shaped my life as a blend of intellectual curiosity, family values, and well-being. Engaging in discussions that range from geopolitics to finance, I relish the opportunity for collective growth and fresh perspectives. Valuing both the soil under my feet and the faces at my family table, they serve as my emotional and cultural anchor. <br/> <br/>
+      I work in technology, but there&apos;s much more to me. I&apos;ve shaped my life as a blend of curiosity, family values & well-being. I like to engage in discussions around geo-politics, finance and history. I value the soil under my feet and the faces at my family table the most as they serve as a emotional and cultural anchor. <br/> <br/>
       
-      I keep wellness as a daily commitment, manifesting in no-equipment workouts, mindfullness, active walking and staying in hydration. Amid this backdrop of personal growth, family ties, and a deep connection to my roots, my Tamil heritage and love for music find their rightful space. Whether it&apos;s lofi-beats for focus & work or Tamil tracks for soulful connection, music is an ever-present companion.<br/><br/>
+      I keep wellness as a daily commitment by concentrating on workouts, mindfulness, active walking and staying in hydration. Amid this backdrop of personal growth, family ties and a deep connection to my roots, my Tamil heritage and love for music find their rightful space. Whether it&apos;s lofi-beats for focus & work or Tamil tracks for soulful connection, music is my ever-present companion.<br/><br/>
       
-      Being <span className="text-italic">bilingually proficient in English & Deutsch</span>, I appreciate the art of clear communication across diverse settings. In a nutshell, I&apos;m a multi-layered individual balancing modern tech, traditional values, and a ceaseless thirst for knowledge, always aiming to be a better version of myself.
+      Being <span className="text-italic">bilingually proficient in English & Deutsch</span>, I always advocate for clear and transparent communication. In a nutshell, I&apos;m a multi-layered individual balancing modern tech, cultural values and thirst for knowledge, always aiming to be a better version of myself today than yesterday.
       </p>
     </motion.section>
   );

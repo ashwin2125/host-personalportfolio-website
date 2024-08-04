@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Ashwin Gopalsamy | Personal Portfolio",
-  description: "A Software Solutions Architect from Tamil Nadu, India.",
+  description: "Software Engineering Professional from Tamil Nadu, India.",
 };
 
 export default function RootLayout({
