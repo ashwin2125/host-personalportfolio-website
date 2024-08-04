@@ -145,7 +145,7 @@ export const skillsData = [
     "Algorithm",
     "Domain-Driven Design (DDD)",
     "Event-Driven Architecture",
-    "Cloud Native Architecture"
+    "Cloud Native Architecture",
     "Event Sourcing & CQRS",
     "API Development",
     "Product Development"
