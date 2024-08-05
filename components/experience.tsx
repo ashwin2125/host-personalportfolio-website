@@ -29,6 +29,7 @@ export default function Experience() {
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
+                fontSize:"1.0rem"
               }}
               contentArrowStyle={{
                 borderRight:
@@ -36,7 +37,7 @@ export default function Experience() {
                     ? "0.4rem solid #9ca3af"
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
-              date={<span style={{ fontSize: "1.0rem" }}>{item.date}</span>}
+              date={item.date}
               icon={item.icon}
               iconStyle={{
                 background:
