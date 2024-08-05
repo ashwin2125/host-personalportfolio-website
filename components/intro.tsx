@@ -7,7 +7,7 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -121,7 +121,7 @@ export default function Intro() {
           target="_blank"
           aria-label="Twitter Profile"
         >
-          <FaXTwitter />
+          <FaSquareXTwitter />
         </a>
         
       </motion.div>
