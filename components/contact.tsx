@@ -30,13 +30,14 @@ export default function Contact() {
       <br/>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Feel free to contact me directly at{" "}
-        <a className="underline" href="mailto:ashwin2125@gmail.com">
+        <a className="underline" href="mailto:ashwin2125@gmail.com"  aria-label="E-mail Address" >
           ashwin2125@gmail.com
         </a>{" "}
         or via {" "}
       <a
           className="underline"
           href="https://linkedin.com/in/ashwingopalsamy"
+          aria-label="LinkedIn Profile"
           target="_blank">LinkedIn
         </a>
         </p>
