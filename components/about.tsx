@@ -17,7 +17,7 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About</SectionHeading>
       <p className="mb-3 text-justify text-lg">
       I work in technology, but there&apos;s much more to me. I&apos;ve shaped my life as a blend of curiosity, family values & well-being. I like to engage in discussions around geo-politics, finance and history. I value the soil under my feet and the faces at my family table the most as they serve as a emotional and cultural anchor. <br/> <br/>
       
