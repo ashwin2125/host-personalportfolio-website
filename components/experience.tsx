@@ -29,7 +29,6 @@ export default function Experience() {
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
-                fontSize:"1.0rem"
               }}
               contentArrowStyle={{
                 borderRight:
@@ -39,6 +38,11 @@ export default function Experience() {
               }}
               date={item.date}
               icon={item.icon}
+              dateStyle={{
+                  background:
+                    theme === "light" ? "white" : "rgb(17, 24, 39)",
+                  fontSize: "1.0rem",
+                  }}
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgb(17, 24, 39)",
