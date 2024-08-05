@@ -121,7 +121,7 @@ export default function Intro() {
           target="_blank"
           aria-label="Twitter Profile"
         >
-          <FaTwitterSquare />
+          <FaXSquare />
         </a>
         
       </motion.div>

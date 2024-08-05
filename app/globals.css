@@ -13,7 +13,3 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
-
-.custom-timeline-element .vertical-timeline-element-date {
-  font-size: 2.0rem;
-}

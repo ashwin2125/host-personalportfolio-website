@@ -7,7 +7,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import "@/app/globals.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
@@ -23,7 +22,6 @@ export default function Experience() {
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
-             className="custom-timeline-element"
               contentStyle={{
                 background:
                   theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
@@ -47,7 +45,7 @@ export default function Experience() {
               }}
             >
               <h3 className="font-semibold capitalize" style={{ fontSize: "1.5rem" }}>{item.title}</h3>
-              <h4 className="font-normal !mt-0">{item.location}</h4>
+              <h4 className="font-semibold !mt-0">{item.location}</h4>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description} <br/>
                 {item.description1}
