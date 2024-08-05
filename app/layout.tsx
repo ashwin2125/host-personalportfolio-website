@@ -29,7 +29,7 @@ export default function RootLayout({
         <meta name="description" content={metadata.description} />
         <meta property="og:title" content="Ashwin Gopalsamy | Personal Portfolio" />
         <meta property="og:description" content="Software Engineering Professional from Tamil Nadu, India." />
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="https://github.com/ashwingopalsamy/host-personalportfolio-website/blob/master/public/thumbnail.png?raw=true" />
         <meta property="og:url" content="https://ashwingopalsamy.in" />
         <meta property="og:type" content="website" />
       </Head>
