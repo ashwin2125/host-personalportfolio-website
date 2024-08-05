@@ -7,6 +7,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import "@/app/globals.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
@@ -29,7 +30,6 @@ export default function Experience() {
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
-                fontSize:"1.0rem"
               }}
               contentArrowStyle={{
                 borderRight:
