@@ -4,10 +4,9 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa";
+import { FaXTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -103,7 +102,7 @@ export default function Intro() {
           target="_blank"
           aria-label="LinkedIn Profile"
         >
-          <BsLinkedin />
+          <FaLinkedinIn />
         </a>
 
         <a
@@ -112,7 +111,7 @@ export default function Intro() {
           target="_blank"
           aria-label="GitHub Profile"
         >
-          <FaGithubSquare />
+            <FaGithub />
         </a>
 
         <a
@@ -121,7 +120,7 @@ export default function Intro() {
           target="_blank"
           aria-label="Twitter Profile"
         >
-          <FaSquareXTwitter />
+          <FaXTwitter />
         </a>
         
       </motion.div>
