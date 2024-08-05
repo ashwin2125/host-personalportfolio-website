@@ -19,11 +19,13 @@ export default function About() {
     >
       <SectionHeading>About</SectionHeading>
       <p className="mb-3 text-justify text-lg">
-      I work in technology, but there&apos;s much more to me. I&apos;ve shaped my life as a blend of curiosity, family values & well-being. I like to engage in discussions around geo-politics, finance and history. I value the soil under my feet and the faces at my family table the most as they serve as a emotional and cultural anchor. <br/> <br/>
-      
-      I keep wellness as a daily commitment by concentrating on workouts, mindfulness, active walking and staying in hydration. Amid this backdrop of personal growth, family ties and a deep connection to my roots, my Tamil heritage and love for music find their rightful space. Whether it&apos;s lofi-beats for focus & work or Tamil tracks for soulful connection, music is my ever-present companion.<br/><br/>
-      
-      Being <span className="text-italic">bilingually proficient in English & Deutsch</span>, I always advocate for clear and transparent communication. In a nutshell, I&apos;m a multi-layered individual balancing modern tech, cultural values and thirst for knowledge, always aiming to be a better version of myself today than yesterday.
+      A growth stage engineer who understands the business behind the code, bringing expertise in designing, architecting and developing software systems. I thrive in dynamic environments, working effectively with engineers, guilds and product owners to build resilient, scalable services and infrastructure. <br/> <br/>
+
+      Beyond coding, my strengths lie in event moderation, robust documentation, effective presentation and a strong drive for self-sufficiency and ownership. Fluent in both English and German, I connect & collaborate with cross-functional teams across diverse cultures and geographies.  <br/> <br/>
+
+      Wellness is a daily commitment for me, focusing on workouts, mindfulness, walking and staying hydrated. This blend of personal growth, strong family ties, and a deep connection to my Tamil heritage defines who I am. Music, whether it&apos;s lofi beats for focus or Tamil tracks for soulful connection, is my constant companion. <br/> <br/>
+
+      I&apos;m always on the lookout for opportunities to connect and collaborate. Feel free to reach out!  <br/> <br/>
       </p>
     </motion.section>
   );
