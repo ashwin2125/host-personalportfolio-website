@@ -25,9 +25,11 @@ export default function ThemeContextProvider({
       setTheme("dark");
       window.localStorage.setItem("theme", "dark");
       document.documentElement.classList.add("dark");
+      document.documentElement.classList.remove("light");
     } else {
       setTheme("light");
       window.localStorage.setItem("theme", "light");
+      document.documentElement.classList.add("light");
       document.documentElement.classList.remove("dark");
     }
   };
@@ -40,11 +42,41 @@ export default function ThemeContextProvider({
 
       if (localTheme === "dark") {
         document.documentElement.classList.add("dark");
+        document.documentElement.classList.remove("light");
+      } else {
+        document.documentElement.classList.add("light");
+        document.documentElement.classList.remove("dark");
       }
     } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme("dark");
       document.documentElement.classList.add("dark");
+      document.documentElement.classList.remove("light");
+    } else {
+      setTheme("light");
+      document.documentElement.classList.add("light");
+      document.documentElement.classList.remove("dark");
     }
+
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+    const handleChange = (e: MediaQueryListEvent) => {
+      const newColorScheme = e.matches ? "dark" : "light";
+      setTheme(newColorScheme);
+
+      if (newColorScheme === "dark") {
+        document.documentElement.classList.add("dark");
+        document.documentElement.classList.remove("light");
+      } else {
+        document.documentElement.classList.add("light");
+        document.documentElement.classList.remove("dark");
+      }
+    };
+
+    mediaQuery.addEventListener("change", handleChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleChange);
+    };
   }, []);
 
   return (

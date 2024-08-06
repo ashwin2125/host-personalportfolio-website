@@ -78,7 +78,7 @@ export const experiencesData = [
     date: "2021, 4 Months.",
   },
   {
-    title: "Graduated in B.Tech Information Technology",
+    title: "B.Tech Information Technology",
     location: "Hindusthan College of Engineering and Technology",
     description:
       "- Ranked as #1 Coder in Skillrack Coding Competition continuously for 10 weeks. (Language: C++, Java, Python).",
