@@ -31,7 +31,7 @@ export default function About() {
 
         Wellness is a daily commitment for me, and I’ve found that a balanced approach keeps me grounded. <b>Workouts, mindfulness, walking, and staying hydrated</b> are part of my routine. I stay connected to my roots, drawing strength from my <b>Tamil heritage</b>, and music is always there – whether it’s <b>lofi beats</b> for focus or <b>Tamil tracks</b> for soulful connection. <br/><br/>
 
-        <i>"You can complain because roses have thorns, or you can rejoice because thorns have roses." – Alphonse Karr</i>
+        <i>&quot;You can complain because roses have thorns, or you can rejoice because thorns have roses.&quot; – Alphonse Karr</i>
       </p>
     </motion.section>
   );
